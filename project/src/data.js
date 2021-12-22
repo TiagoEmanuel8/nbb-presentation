@@ -1,5 +1,208 @@
-const times = [
-
+const equipes = [
+  {
+    nome: 'Bauru',
+    nomeCompleto: 'Associação Bauru Basketball Team',
+    localização: 'Bauru, SP, Brasil',
+    imagem: 'images/bauru.png',
+    mascote: 'Dunk',
+    fundacao: 1994,
+    arena: 'Ginásio Panela de Pressão',
+    capacidadeArena: '2000 espectadores',
+    materialEsportivo: 'RR Uniformes',
+    site: 'www.baurubasket.com.br'
+  },
+  {
+    nome: 'Brb/Brasília',
+    nomeCompleto: 'LB Produções e Eventos LTDA - ME',
+    localização: 'Brasília, DF, Brasil',
+    imagem: 'images/brb.png',
+    mascote: 'Spooky',
+    fundacao: 2018,
+    arena: 'Ginásio Nilson Nelson',
+    capacidadeArena: '11.397 espectadores',
+    materialEsportivo: 'Astro Sport',
+    site: 'www.bsbbkt.com'
+  },
+  {
+    nome: 'Caxias do Sul Basquete',
+    nomeCompleto: 'Caxias do Sul Basquete Associação Esportiva e Recreativa',
+    localização: 'Caxias do Sul, RS, Brasil',
+    imagem: 'images/caxias.png',
+    mascote: 'Gambasquete',
+    fundacao: 2006,
+    arena: 'Ginásio do Sesi',
+    capacidadeArena: '4.500 espectadores',
+    materialEsportivo: 'Catera Esportes',
+    site: 'www.caxiasdosulbasquete.com.br'
+  },
+  {
+    nome: 'Cerrado Basquete',
+    nomeCompleto: 'Associação Esportiva e Recreativa Cerrado',
+    localização: 'Brasília, DF, Brasil',
+    imagem: 'images/cerrado.png',
+    mascote: '',
+    fundacao: 2016,
+    arena: 'Ginásio da ASCEB',
+    capacidadeArena: '1.100 espectadores',
+    materialEsportivo: 'Overtime',
+    site: 'www.cerradobasquete.com.br'
+  },
+  {
+    nome: 'Corinthians',
+    nomeCompleto: 'Sport Club Corinthians Paulista',
+    localização: 'São Paulo, SP, Brasil',
+    imagem: 'images/corinthians.png',
+    mascote: 'Mosqueteiro',
+    fundacao: 1928,
+    arena: 'Ginásio Wlamir Marques',
+    capacidadeArena: '6.500 espectadores',
+    materialEsportivo: 'Nike',
+    site: 'www.corinthians.com.br'
+  },
+  {
+    nome: 'Flamengo',
+    nomeCompleto: 'Clube de Regatas do Flamengo',
+    localização: 'Rio de Janeiro, RJ, Brasil',
+    imagem: 'images/flamengo.png',
+    mascote: 'Urubu',
+    fundacao: 1919,
+    arena: 'Ginásio Maracanãzinho',
+    capacidadeArena: '11.800 espectadores',
+    materialEsportivo: 'Adidas',
+    site: 'www.flamengobasquete.com.br'
+  },
+  {
+    nome: 'Fortaleza Basquete Cearense',
+    nomeCompleto: 'Associação de Basquete Cearense',
+    localização: 'Fortaleza, CE, Brasil',
+    imagem: 'images/fortaleza.png',
+    mascote: 'Carcará',
+    fundacao: 2012,
+    arena: 'Arena do Centro de Formação Olímpica',
+    capacidadeArena: '17.100 espectadores',
+    materialEsportivo: 'Leão 1918',
+    site: 'www.soucarcara.com.br'
+  },
+  {
+    nome: 'Sesi Franca',
+    nomeCompleto: 'Franca Basquetebol Clube',
+    localização: 'Franca, SP, Brasil',
+    imagem: 'images/fortaleza.png',
+    mascote: 'Carcará',
+    fundacao: 1959,
+    arena: 'Ginásio Poliesportivo Pedro Morilla Fuentes',
+    capacidadeArena: '6.000 espectadores',
+    materialEsportivo: 'Overtime',
+    site: 'www.francabasquete.com.br'
+  },
+  {
+    nome: 'Luvix/União Corinthians',
+    nomeCompleto: 'Esporte Clube União Corinthians',
+    localização: 'Santa Cruz do Sul, RS, Brasil',
+    imagem: 'images/luvix.png',
+    mascote: '',
+    fundacao: 1959,
+    arena: 'Ginásio Poliesportivo Arnão',
+    capacidadeArena: '6.000 espectadores',
+    materialEsportivo: 'SS Sports',
+    site: 'www.basquete.uniaocorinthians.com.br'
+  },
+  {
+    nome: 'Minas Storm',
+    nomeCompleto: 'Minas Storm Tênis Clube multi-sports club',
+    localização: 'Belo Horizonte, Brazil',
+    imagem: 'images/minas.png',
+    mascote: '',
+    fundacao: 1937,
+    arena: 'Arena MTC',
+    capacidadeArena: '4.000 espectadores',
+    materialEsportivo: 'icone',
+    site: 'www.minastenisclube.com.br/esportes/basquete'
+  },
+  {
+    nome: 'Mogi',
+    nomeCompleto: 'Associação Desportiva de Mogi das Cruzes',
+    localização: 'Mogi das Cruzes, SP, Brasil',
+    imagem: 'images/mogi.png',
+    mascote: 'Jaguá',
+    fundacao: 1995,
+    arena: 'Ginásio Municipal Professor Hugo Ramos',
+    capacidadeArena: '5.000 espectadores',
+    materialEsportivo: 'Overtime',
+    site: 'www.mogidascruzesbasquete.com.br'
+  },
+  {
+    nome: 'Pato Basquete',
+    nomeCompleto: 'Associação Basquetebol Arte de Pato Branco',
+    localização: 'Pato Branco, PR, Brasil',
+    imagem: 'images/pato.png',
+    mascote: 'Pato',
+    fundacao: 1999,
+    arena: 'Ginásio do SESI',
+    capacidadeArena: '1.000 espectadores',
+    materialEsportivo: 'gr sports',
+    site: 'www.patobasquete.com.br'
+  },
+  {
+    nome: 'Paulistano',
+    nomeCompleto: 'Club Athletico Paulistano',
+    localização: 'São Paulo, SP, Brasil',
+    imagem: 'images/paulistano.png',
+    mascote: 'Fried',
+    fundacao: 1922,
+    arena: 'Ginásio Antônio Prado Junior',
+    capacidadeArena: '1.280 espectadores',
+    materialEsportivo: 'Undici',
+    site: 'www.paulistano.org.br'
+  },
+  {
+    nome: 'Pinheiros',
+    nomeCompleto: 'Esporte Clube Pinheiros',
+    localização: 'São Paulo, SP, Brasil',
+    imagem: 'images/pinheiros.png',
+    mascote: '',
+    fundacao: 1926,
+    arena: 'Ginásio Poliesportivo Henrique Villaboim',
+    capacidadeArena: '850 espectadores',
+    materialEsportivo: 'Undici',
+    site: 'www.ecp.org.br/basquete'
+  },
+  {
+    nome: 'Rio Claro',
+    nomeCompleto: 'Associação Beneficente Cultural Desportiva Bandeirantes',
+    localização: 'Rio Claro, SP, Brasil',
+    imagem: 'images/rio-claro.png',
+    mascote: 'Leônidas',
+    fundacao: 1981,
+    arena: 'Ginásio Felipe Karan',
+    capacidadeArena: '2.200 espectadores',
+    materialEsportivo: 'Undici',
+    site: 'www.rioclarobasquete.com.br'
+  },
+  {
+    nome: 'São Paulo',
+    nomeCompleto: 'São Paulo Futebol Clube',
+    localização: 'São Paulo, SP, Brasil',
+    imagem: 'images/sao-paulo.png',
+    mascote: 'São Paulo (santo)',
+    fundacao: 1930,
+    arena: 'Ginásio Antônio Leme Nunes Galvão',
+    capacidadeArena: '1.918 espectadores',
+    materialEsportivo: 'Adidas',
+    site: 'www.saopaulofc.net/basquete'
+  },
+  {
+    nome: 'Unifacisa',
+    nomeCompleto: 'Associação Atlético Unifacisa',
+    localização: 'Campina Grande, PB, Brasil',
+    imagem: 'images/unifacisa.png',
+    mascote: 'Jack',
+    fundacao: 2012,
+    arena: 'Arena Unifacisa',
+    capacidadeArena: '1.200 espectadores',
+    materialEsportivo: 'Overtime',
+    site: 'www.unifacisa.edu.br/basquete'
+  }
 ];
 
-export default times;
+export default equipes;
