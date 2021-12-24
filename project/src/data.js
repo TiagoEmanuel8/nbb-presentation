@@ -1,8 +1,9 @@
 const equipes = [
   {
+    id: 1,
     nome: 'Bauru',
     nomeCompleto: 'Associação Bauru Basketball Team',
-    localização: 'Bauru, SP, Brasil',
+    localizacao: 'Bauru, SP, Brasil',
     imagem: 'images/bauru.png',
     mascote: 'Dunk',
     fundacao: 1994,
@@ -12,9 +13,10 @@ const equipes = [
     site: 'www.baurubasket.com.br'
   },
   {
+    id: 2,
     nome: 'Brb/Brasília',
     nomeCompleto: 'LB Produções e Eventos LTDA - ME',
-    localização: 'Brasília, DF, Brasil',
+    localizacao: 'Brasília, DF, Brasil',
     imagem: 'images/brb.png',
     mascote: 'Spooky',
     fundacao: 2018,
@@ -24,9 +26,10 @@ const equipes = [
     site: 'www.bsbbkt.com'
   },
   {
+    id: 3,
     nome: 'Caxias do Sul Basquete',
     nomeCompleto: 'Caxias do Sul Basquete Associação Esportiva e Recreativa',
-    localização: 'Caxias do Sul, RS, Brasil',
+    localizacao: 'Caxias do Sul, RS, Brasil',
     imagem: 'images/caxias.png',
     mascote: 'Gambasquete',
     fundacao: 2006,
@@ -36,9 +39,10 @@ const equipes = [
     site: 'www.caxiasdosulbasquete.com.br'
   },
   {
+    id: 4,
     nome: 'Cerrado Basquete',
     nomeCompleto: 'Associação Esportiva e Recreativa Cerrado',
-    localização: 'Brasília, DF, Brasil',
+    localizacao: 'Brasília, DF, Brasil',
     imagem: 'images/cerrado.png',
     mascote: '',
     fundacao: 2016,
@@ -48,9 +52,10 @@ const equipes = [
     site: 'www.cerradobasquete.com.br'
   },
   {
+    id: 5,
     nome: 'Corinthians',
     nomeCompleto: 'Sport Club Corinthians Paulista',
-    localização: 'São Paulo, SP, Brasil',
+    localizacao: 'São Paulo, SP, Brasil',
     imagem: 'images/corinthians.png',
     mascote: 'Mosqueteiro',
     fundacao: 1928,
@@ -60,9 +65,10 @@ const equipes = [
     site: 'www.corinthians.com.br'
   },
   {
+    id: 6,
     nome: 'Flamengo',
     nomeCompleto: 'Clube de Regatas do Flamengo',
-    localização: 'Rio de Janeiro, RJ, Brasil',
+    localizacao: 'Rio de Janeiro, RJ, Brasil',
     imagem: 'images/flamengo.png',
     mascote: 'Urubu',
     fundacao: 1919,
@@ -72,9 +78,10 @@ const equipes = [
     site: 'www.flamengobasquete.com.br'
   },
   {
+    id: 7,
     nome: 'Fortaleza Basquete Cearense',
     nomeCompleto: 'Associação de Basquete Cearense',
-    localização: 'Fortaleza, CE, Brasil',
+    localizacao: 'Fortaleza, CE, Brasil',
     imagem: 'images/fortaleza.png',
     mascote: 'Carcará',
     fundacao: 2012,
@@ -84,9 +91,10 @@ const equipes = [
     site: 'www.soucarcara.com.br'
   },
   {
+    id: 8,
     nome: 'Sesi Franca',
     nomeCompleto: 'Franca Basquetebol Clube',
-    localização: 'Franca, SP, Brasil',
+    localizacao: 'Franca, SP, Brasil',
     imagem: 'images/fortaleza.png',
     mascote: 'Carcará',
     fundacao: 1959,
@@ -96,9 +104,10 @@ const equipes = [
     site: 'www.francabasquete.com.br'
   },
   {
+    id: 9,
     nome: 'Luvix/União Corinthians',
     nomeCompleto: 'Esporte Clube União Corinthians',
-    localização: 'Santa Cruz do Sul, RS, Brasil',
+    localizacao: 'Santa Cruz do Sul, RS, Brasil',
     imagem: 'images/luvix.png',
     mascote: '',
     fundacao: 1959,
@@ -108,9 +117,10 @@ const equipes = [
     site: 'www.basquete.uniaocorinthians.com.br'
   },
   {
+    id: 10,
     nome: 'Minas Storm',
     nomeCompleto: 'Minas Storm Tênis Clube multi-sports club',
-    localização: 'Belo Horizonte, Brazil',
+    localizacao: 'Belo Horizonte, Brazil',
     imagem: 'images/minas.png',
     mascote: '',
     fundacao: 1937,
@@ -120,9 +130,10 @@ const equipes = [
     site: 'www.minastenisclube.com.br/esportes/basquete'
   },
   {
+    id: 11,
     nome: 'Mogi',
     nomeCompleto: 'Associação Desportiva de Mogi das Cruzes',
-    localização: 'Mogi das Cruzes, SP, Brasil',
+    localizacao: 'Mogi das Cruzes, SP, Brasil',
     imagem: 'images/mogi.png',
     mascote: 'Jaguá',
     fundacao: 1995,
@@ -132,9 +143,10 @@ const equipes = [
     site: 'www.mogidascruzesbasquete.com.br'
   },
   {
+    id: 12,
     nome: 'Pato Basquete',
     nomeCompleto: 'Associação Basquetebol Arte de Pato Branco',
-    localização: 'Pato Branco, PR, Brasil',
+    localizacao: 'Pato Branco, PR, Brasil',
     imagem: 'images/pato.png',
     mascote: 'Pato',
     fundacao: 1999,
@@ -144,9 +156,10 @@ const equipes = [
     site: 'www.patobasquete.com.br'
   },
   {
+    id: 13,
     nome: 'Paulistano',
     nomeCompleto: 'Club Athletico Paulistano',
-    localização: 'São Paulo, SP, Brasil',
+    localizacao: 'São Paulo, SP, Brasil',
     imagem: 'images/paulistano.png',
     mascote: 'Fried',
     fundacao: 1922,
@@ -156,9 +169,10 @@ const equipes = [
     site: 'www.paulistano.org.br'
   },
   {
+    id: 14,
     nome: 'Pinheiros',
     nomeCompleto: 'Esporte Clube Pinheiros',
-    localização: 'São Paulo, SP, Brasil',
+    localizacao: 'São Paulo, SP, Brasil',
     imagem: 'images/pinheiros.png',
     mascote: '',
     fundacao: 1926,
@@ -168,9 +182,10 @@ const equipes = [
     site: 'www.ecp.org.br/basquete'
   },
   {
+    id: 15,
     nome: 'Rio Claro',
     nomeCompleto: 'Associação Beneficente Cultural Desportiva Bandeirantes',
-    localização: 'Rio Claro, SP, Brasil',
+    localizacao: 'Rio Claro, SP, Brasil',
     imagem: 'images/rio-claro.png',
     mascote: 'Leônidas',
     fundacao: 1981,
@@ -180,9 +195,10 @@ const equipes = [
     site: 'www.rioclarobasquete.com.br'
   },
   {
+    id: 16,
     nome: 'São Paulo',
     nomeCompleto: 'São Paulo Futebol Clube',
-    localização: 'São Paulo, SP, Brasil',
+    localizacao: 'São Paulo, SP, Brasil',
     imagem: 'images/sao-paulo.png',
     mascote: 'São Paulo (santo)',
     fundacao: 1930,
@@ -192,9 +208,10 @@ const equipes = [
     site: 'www.saopaulofc.net/basquete'
   },
   {
+    id: 17,
     nome: 'Unifacisa',
     nomeCompleto: 'Associação Atlético Unifacisa',
-    localização: 'Campina Grande, PB, Brasil',
+    localizacao: 'Campina Grande, PB, Brasil',
     imagem: 'images/unifacisa.png',
     mascote: 'Jack',
     fundacao: 2012,
