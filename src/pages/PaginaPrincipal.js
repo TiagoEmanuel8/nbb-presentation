@@ -1,6 +1,6 @@
 import React from 'react';
 
-class MainPage extends React.Component {
+class PaginaPrincipal extends React.Component {
   render() {
     return(
       <p>página principal</p>
@@ -8,4 +8,4 @@ class MainPage extends React.Component {
   }
 };
 
-export default MainPage;
+export default PaginaPrincipal;

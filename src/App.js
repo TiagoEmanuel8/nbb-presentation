@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { MainPage, TeamsGeneral, TeamDetails } from './pages';
+import { PaginaPrincipal, PaginaTimes, PaginaDetalhe } from './pages';
 import './App.css';
 import teams from './data';
 
@@ -14,12 +14,12 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ MainPage } />
-          <Route exact path="/team/:id" component={ TeamDetails } />
+          <Route exact path="/" component={ PaginaPrincipal } />
+          <Route exact path="/team/:id" component={ PaginaDetalhe } />
           <Route
             exact path="/team"
             render={ (props) => (
-              <TeamsGeneral { ...props } databaseTeams={ this.datateams } />
+              <PaginaTimes { ...props } databaseTeams={ this.datateams } />
             )}
           />
 

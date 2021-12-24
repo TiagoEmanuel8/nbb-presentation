@@ -1,6 +1,6 @@
 import React from 'react';
 
-class TeamDetails extends React.Component {
+class PaginaDetalhe extends React.Component {
   render() {
     return(
       <p>página de detalhes</p>
@@ -8,4 +8,4 @@ class TeamDetails extends React.Component {
   }
 };
 
-export default TeamDetails;
+export default PaginaDetalhe;

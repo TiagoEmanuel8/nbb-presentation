@@ -1,3 +1,3 @@
-export { default as MainPage } from './Main';
-export { default as TeamsGeneral } from './TeamsGeneral';
-export { default as TeamDetails } from './TeamDetails';
+export { default as PaginaPrincipal } from './PaginaPrincipal';
+export { default as PaginaTimes } from './PaginaTimes';
+export { default as PaginaDetalhe } from './PaginaDetalhe';
