@@ -95,7 +95,7 @@ const equipes = [
     nome: 'Sesi Franca',
     nomeCompleto: 'Franca Basquetebol Clube',
     localizacao: 'Franca, SP, Brasil',
-    imagem: 'images/fortaleza.png',
+    imagem: 'images/franca.png',
     mascote: 'Carcará',
     fundacao: 1959,
     arena: 'Ginásio Poliesportivo Pedro Morilla Fuentes',

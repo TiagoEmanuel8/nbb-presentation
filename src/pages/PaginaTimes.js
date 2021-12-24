@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class PaginaTimes extends React.Component {
   render() {
@@ -8,12 +8,19 @@ class PaginaTimes extends React.Component {
     return(
       <section>
         <p>pagina principal de times</p>
-        {databaseTeams.map((team) => (
-          <div>
-            <p>{team.nome}</p>
-            <img src={team.imagem} alt="imagem de times" />
-          </div>
-        ))}
+        {
+          databaseTeams.map((team) => (
+            <div>
+              <Link to={`/team/${team.id}`}>{
+                <div>
+                  <p>{team.nome}</p>
+                  <img src={team.imagem} alt="imagem de times" />
+                </div>
+                }
+              </Link>
+            </div>
+          ))
+        }
       </section>
     )
   }
