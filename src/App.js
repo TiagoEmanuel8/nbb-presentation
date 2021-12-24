@@ -15,7 +15,13 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={ PaginaPrincipal } />
-          <Route exact path="/team/:id" component={ PaginaDetalhe } />
+          {/* <Route exact path="/team/:id" component={ PaginaDetalhe } /> */}
+          <Route
+            exact path="/team/:id"
+            render={ (props) => (
+              <PaginaDetalhe { ...props } databaseTeams={ this.datateams } />
+            )}
+          />
           <Route
             exact path="/team"
             render={ (props) => (

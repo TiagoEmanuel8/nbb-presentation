@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 class PaginaTimes extends React.Component {
   render() {
     const { databaseTeams } = this.props;
-    console.log(databaseTeams);
     return(
       <section>
         <p>pagina principal de times</p>
