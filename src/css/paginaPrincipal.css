@@ -3,17 +3,17 @@ img {
   height: 15rem;  
 }
 
-p {
-  color: #2B8638;
-  font-weight: bold;
-}
-
 button {
   background-color: #5F9428;
   color: white;
   border-radius: 5px;
   padding: 0.8rem;
   cursor:pointer;
+}
+
+.text {
+  color: #2B8638;
+  font-weight: bold;
 }
 
 .container-texto {
@@ -32,8 +32,6 @@ button {
 .container-geral {
   align-content: space-between;
   align-items: center;
-  /* background: url('../images/background.jpg') center / cover fixed; */
-  /* background-color: rgb(27, 26, 33, 0.95); */
   display: flex;
   flex-direction: column;
   justify-content: center;

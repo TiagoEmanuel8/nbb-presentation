@@ -1,25 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../css/paginaTimes.css'
 
 class PaginaTimes extends React.Component {
   render() {
     const { databaseTeams } = this.props;
     return(
       <section>
-        <p>pagina principal de times</p>
-        {
-          databaseTeams.map((team) => (
-            <div>
-              <Link to={`/team/${team.id}`}>{
-                <div>
-                  <p>{team.nome}</p>
-                  <img src={team.imagem} alt="imagem de times" />
-                </div>
-                }
-              </Link>
+        <p className='title'>Clique na imagem dos times para conhecer os detalhes</p>
+        <div className='container-imagens'>
+          {
+            databaseTeams.map((team) => (
+                <Link to={`/team/${team.id}`}>{
+                    <img src={ team.imagem } alt="imagem de times" />
+                  }
+                </Link>
+            ))
+          }
             </div>
-          ))
-        }
       </section>
     )
   }

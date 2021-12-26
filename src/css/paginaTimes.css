@@ -1,0 +1,26 @@
+img {
+  width: 14rem;
+  height: 13rem;
+}
+
+p {
+  color: #2B8638;
+  font-size: 1vw;
+  /* font-weight: bold; */
+}
+
+.container-imagens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  min-width: 100vw;
+};
