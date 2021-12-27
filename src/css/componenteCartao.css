@@ -33,6 +33,16 @@
   color: #FFFFFF;  
 }
 
+/* Estilização Flamengo */
+.texto-6 {
+  color: #FF0000; 
+}
+
+/* Estilização Fortaleza */
+.texto-7 {
+  color: #0011fb; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
