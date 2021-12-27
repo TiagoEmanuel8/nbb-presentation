@@ -7,8 +7,8 @@ img {
   display: flex;
   justify-content: center;
 }
-
-.botao-Bauru {
+/* Estilização Bauru Basquete */
+.botao-1 {
   background-color: #024539;
   color: white;
   border-radius: 5px;
@@ -16,16 +16,30 @@ img {
   cursor:pointer;
 }
 
-.texto-Bauru {
+.texto-1 {
   color: #16B018;  
 }
 
-/* .detalhes-time {
+/* Estilização Brb Brasilia */
+
+.botao-2 {
+  background-color: #024539;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor:pointer;
+}
+
+.texto-2 {
+  color: #015dfb;  
+}
+
+.detalhes-time {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   justify-content: center;
-} */
+}
 
 .texto-time {
   display: flex;

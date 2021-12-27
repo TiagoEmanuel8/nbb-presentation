@@ -1,8 +1,19 @@
-.botao-Bauru {
+/* Botao Bauru Basquete */
+.botao-1 {
   background-color: #00453A;
   color: white;
   border-radius: 5px;
-  padding: 0.8rem;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
+
+/* Botao Brb/Brasilia */
+.botao-2 {
+  background-color: #142545;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
   cursor:pointer;
   font-size: x-large;
 }

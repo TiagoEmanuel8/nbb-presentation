@@ -8,7 +8,7 @@ class CabecalhoDetalhes extends React.Component {
     return(
       <div>
       <Link to={'/team'}>
-        <button className={`botao-${ dadosTime.nome }`}>conhecer outras equipes</button>
+        <button className={`botao-${ dadosTime.id }`}>conhecer outras equipes</button>
       </Link> 
      </div>
     )
