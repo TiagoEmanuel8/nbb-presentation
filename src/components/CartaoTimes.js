@@ -7,6 +7,7 @@ class CartaoTime extends React.Component {
     return (
       <div className='detalhes-time'>
       <img
+        className='imagens-time'
         alt="imagem de times"
         src={`../${dadosTime.imagem}`}
       />

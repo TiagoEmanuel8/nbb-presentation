@@ -17,3 +17,13 @@
   cursor:pointer;
   font-size: x-large;
 }
+
+/* Botao Caxias do sul */
+.botao-3 {
+  background-color: #E95F25;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}

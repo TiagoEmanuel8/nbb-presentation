@@ -1,37 +1,26 @@
-img {
-  height: 20rem;
-  width: 20rem;
+.imagens-time {
+  height: 23rem;
+  width: 23rem;
 }
 
 .botoes-navegacao {
   display: flex;
   justify-content: center;
 }
-/* Estilização Bauru Basquete */
-.botao-1 {
-  background-color: #024539;
-  color: white;
-  border-radius: 5px;
-  padding: 0.5rem;
-  cursor:pointer;
-}
 
+/* Estilização Bauru Basquete */
 .texto-1 {
   color: #16B018;  
 }
 
 /* Estilização Brb Brasilia */
-
-.botao-2 {
-  background-color: #024539;
-  color: white;
-  border-radius: 5px;
-  padding: 0.5rem;
-  cursor:pointer;
-}
-
 .texto-2 {
   color: #015dfb;  
+}
+
+/* Estilização Caxias do Sul */
+.texto-3 {
+  color: #FF0000;  
 }
 
 .detalhes-time {
@@ -45,6 +34,7 @@ img {
   display: flex;
   flex-direction: column;
   font-size: x-large;
+  font-weight: 500;
 }
 
 .detalhes-time {
