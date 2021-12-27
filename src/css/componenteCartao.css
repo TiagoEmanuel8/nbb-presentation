@@ -83,6 +83,11 @@
   color: #3473C6; 
 }
 
+/* Estilização Rio Claro */
+.texto-16 {
+  color: #FFFFFF; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
