@@ -30,7 +30,7 @@
 
 /* Botao Cerrado Basquete */
 .botao-4 {
-  background-color: white;
+  background-color: rgb(136, 132, 132);
   color: black;
   border-radius: 5px;
   padding: 0.6rem;
@@ -40,8 +40,8 @@
 
 /* Botao Corinthians */
 .botao-5 {
-  background-color: white;
-  color: black;
+  background-color: rgb(136, 132, 132);
+  color: #9c0610;
   border-radius: 5px;
   padding: 0.6rem;
   cursor:pointer;
@@ -51,6 +51,26 @@
 /* Botao Flamengo */
 .botao-6 {
   background-color: #9c0610;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
+
+/* Botao Fortaleza */
+.botao-7 {
+  background-color: rgb(136, 132, 132);
+  color: #9c0610;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
+
+/* Botao Franca */
+.botao-8 {
+  background-color: #566180;
   color: white;
   border-radius: 5px;
   padding: 0.6rem;

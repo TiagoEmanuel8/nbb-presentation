@@ -43,6 +43,11 @@
   color: #0011fb; 
 }
 
+/* Estilização Franca */
+.texto-8 {
+  color: #0011fb; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
