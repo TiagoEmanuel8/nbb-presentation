@@ -28,6 +28,11 @@
   color: #167718;  
 }
 
+/* Estilização Corinthians */
+.texto-5 {
+  color: #FFFFFF;  
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
