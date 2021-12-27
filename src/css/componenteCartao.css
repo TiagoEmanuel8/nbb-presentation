@@ -48,6 +48,12 @@
   color: #0011fb; 
 }
 
+
+/* Estilização União Corinthians */
+.texto-9 {
+  color: #00A044; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;

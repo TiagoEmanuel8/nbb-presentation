@@ -77,3 +77,13 @@
   cursor:pointer;
   font-size: x-large;
 }
+
+/* Botao União Corinthians */
+.botao-9 {
+  background-color: #033F6B;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
