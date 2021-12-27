@@ -1,14 +1,15 @@
 img {
+  height: 15rem;
   width: 15rem;
-  height: 15rem;  
 }
 
-button {
+.botao-equipes {
   background-color: #5F9428;
-  color: white;
   border-radius: 5px;
-  padding: 0.8rem;
   cursor:pointer;
+  color: white;
+  font-size: large;
+  padding: 0.8rem;
 }
 
 .text {
@@ -38,4 +39,4 @@ button {
   justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
-};
+}

@@ -22,7 +22,7 @@ class PaginaPrincipal extends React.Component {
           </div>
         </div>
         <Link to={'/team'}>
-          <button>Conheça as equipes</button>
+          <button className='botao-equipes'>Conheça as equipes</button>
         </Link>
       </section>
     )

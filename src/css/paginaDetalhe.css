@@ -1,18 +1,4 @@
-.time-Bauru {
-  color: #093B30;
-};
-
-.detalhes-time {
+.equipe {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  /* justify-content: center;  */
-};
-
-
-.texto-time {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-};
+}

@@ -1,0 +1,37 @@
+.botoes-navegacao {
+  display: flex;
+  justify-content: center;
+}
+
+.botao-Bauru {
+  background-color: #024539;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor:pointer;
+}
+
+.texto-Bauru {
+  color: #093B30;
+}
+
+/* .detalhes-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+} */
+
+.texto-time {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.detalhes-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
