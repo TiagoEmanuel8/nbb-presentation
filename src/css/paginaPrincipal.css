@@ -1,21 +1,22 @@
-img {
-  height: 15rem;
-  width: 15rem;
+.logo-nbb {
+  height: 25rem;
+  width: 25rem;
 }
 
 .botao-equipes {
-  background-color: #5F9428;
+  background-color: #415c25;
   border-radius: 5px;
   cursor:pointer;
   color: white;
   font-size: large;
   padding: 0.8rem;
+  font-size: x-large;
 }
 
 .text {
   color: #2B8638;
   font-weight: bold;
-  font-size: large;
+  font-size: x-large;
 }
 
 .container-texto {

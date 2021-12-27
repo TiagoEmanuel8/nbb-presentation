@@ -6,13 +6,13 @@ class PaginaTimes extends React.Component {
   render() {
     const { databaseTeams } = this.props;
     return(
-      <section>
+      <section className='pagina-times'>
         <p className='title'>Clique na imagem dos times para conhecer os detalhes</p>
         <div className='container-imagens'>
           {
             databaseTeams.map((team) => (
                 <Link to={`/team/${team.id}`}>{
-                    <img src={ team.imagem } alt="imagem de times" />
+                    <img src={ team.imagem } alt="imagem-times-nbb" />
                   }
                 </Link>
             ))

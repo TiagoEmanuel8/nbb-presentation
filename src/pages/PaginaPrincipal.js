@@ -8,7 +8,7 @@ class PaginaPrincipal extends React.Component {
     return(
       <section className='container-geral'>
         <div className='container-apresentacao'>
-          <img src={ logo } alt="imagem-nbb"/>
+          <img className='logo-nbb' src={ logo } alt="imagem-nbb"/>
           <div className='container-texto'>
             <p className='text'>O Novo Basquete Brasil (NBB) é a maior competição de basquete nacional</p>
 
