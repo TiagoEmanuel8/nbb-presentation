@@ -23,6 +23,11 @@
   color: #FF0000;  
 }
 
+/* Estilização Cerrado basquete */
+.texto-4 {
+  color: #167718;  
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
