@@ -73,6 +73,16 @@
   color: #EC1B30; 
 }
 
+/* Estilização Pinheiros */
+.texto-14 {
+  color: #3a84ce; 
+}
+
+/* Estilização Rio Claro */
+.texto-15 {
+  color: #3473C6; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;

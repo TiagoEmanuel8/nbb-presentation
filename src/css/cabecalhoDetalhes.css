@@ -127,3 +127,13 @@
   cursor:pointer;
   font-size: x-large;
 }
+
+/* Botao Pinheiros */
+.botao-14 {
+  background-color: #024181;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
