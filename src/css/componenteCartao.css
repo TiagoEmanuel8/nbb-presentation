@@ -68,6 +68,11 @@
   color: #0681da; 
 }
 
+/* Estilização Paulistano */
+.texto-13 {
+  color: #EC1B30; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
