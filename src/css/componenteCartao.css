@@ -58,6 +58,16 @@
   color: #0483C0; 
 }
 
+/* Estilização Mogi */
+.texto-11 {
+  color: #6182c5; 
+}
+
+/* Estilização Pato */
+.texto-12 {
+  color: #0681da; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;

@@ -97,3 +97,23 @@
   cursor:pointer;
   font-size: x-large;
 }
+
+/* Botao Mogi */
+.botao-11 {
+  background-color: #566180;
+  color: #ffb700;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
+
+/* Botao Pato */
+.botao-12 {
+  background-color: #566180;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}
