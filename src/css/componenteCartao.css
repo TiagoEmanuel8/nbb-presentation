@@ -1,3 +1,8 @@
+img {
+  height: 20rem;
+  width: 20rem;
+}
+
 .botoes-navegacao {
   display: flex;
   justify-content: center;
@@ -12,7 +17,7 @@
 }
 
 .texto-Bauru {
-  color: #093B30;
+  color: #16B018;  
 }
 
 /* .detalhes-time {
@@ -25,7 +30,7 @@
 .texto-time {
   display: flex;
   flex-direction: column;
-  font-size: large;
+  font-size: x-large;
 }
 
 .detalhes-time {
