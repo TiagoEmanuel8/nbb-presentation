@@ -87,3 +87,13 @@
   cursor:pointer;
   font-size: x-large;
 }
+
+/* Botao Minas Storm */
+.botao-10 {
+  background-color: #1f7197;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}

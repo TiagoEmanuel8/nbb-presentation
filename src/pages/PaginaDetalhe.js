@@ -10,8 +10,8 @@ class PaginaDetalhe extends React.Component {
     const timeAtual = databaseTeams[id - 1];
     return(
       <section className='equipe'>
-        <CabecalhoDetalhes key={ timeAtual.nome } dadosTime={ timeAtual } />
         <CartaoTime key={ timeAtual.nome } dadosTime={ timeAtual } />
+        <CabecalhoDetalhes key={ timeAtual.nome } dadosTime={ timeAtual } />
       </section>
     )
   }

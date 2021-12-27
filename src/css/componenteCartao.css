@@ -48,10 +48,14 @@
   color: #0011fb; 
 }
 
-
 /* Estilização União Corinthians */
 .texto-9 {
   color: #00A044; 
+}
+
+/* Estilização Minas Storm */
+.texto-10 {
+  color: #0483C0; 
 }
 
 .detalhes-time {
