@@ -157,3 +157,13 @@
   cursor:pointer;
   font-size: x-large;
 }
+
+/* Botao Unifacisa */
+.botao-17 {
+  background-color: #183373;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  cursor:pointer;
+  font-size: x-large;
+}

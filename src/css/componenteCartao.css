@@ -88,6 +88,11 @@
   color: #FFFFFF; 
 }
 
+/* Estilização Unifacisa */
+.texto-17 {
+  color: #376FC0; 
+}
+
 .detalhes-time {
   display: flex;
   flex-direction: column;
